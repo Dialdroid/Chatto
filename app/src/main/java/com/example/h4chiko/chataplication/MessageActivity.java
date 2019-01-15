@@ -199,7 +199,6 @@ public class MessageActivity extends AppCompatActivity {
 
             }
         });
-
         final String msg = message;
 
         reference = FirebaseDatabase.getInstance().getReference("User").child(firebaseUser.getUid());
@@ -209,7 +208,7 @@ public class MessageActivity extends AppCompatActivity {
                 User user = dataSnapshot.getValue(User.class);
                 if (notify) {
                     sendNotification(receiver, user.getUsername(), msg);
-                 }
+                }
                 notify = false;
             }
             @Override
@@ -256,6 +255,8 @@ public class MessageActivity extends AppCompatActivity {
 
             }
         });
+
+
     }
 
     private void readMessages(final String myid, final String userid, final String imageurl){
