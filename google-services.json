@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "22207285568",
+    "firebase_url": "https://proyecto-chat-h4chiko.firebaseio.com",
+    "project_id": "proyecto-chat-h4chiko",
+    "storage_bucket": "proyecto-chat-h4chiko.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22207285568:android:d51953e5cf76dc09",
+        "android_client_info": {
+          "package_name": "com.example.h4chiko.chataplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22207285568-ld7946ih2q0e71k20osg740mf947bbhs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.h4chiko.chataplication",
+            "certificate_hash": "d5527f03a7d970903ace7dc258dedb4d57bc213a"
+          }
+        },
+        {
+          "client_id": "22207285568-k5vmrlhmbt9821bkp26ll5hh58u9bdhr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEa7fUsjP0SEbsm9nzmiITh7DKhf9cSIE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22207285568-k5vmrlhmbt9821bkp26ll5hh58u9bdhr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
